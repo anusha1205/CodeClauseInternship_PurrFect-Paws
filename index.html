@@ -20,28 +20,28 @@
 
 <body>
       <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html">PurrFect Paws</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <div class="container-fluid" style="display: flex;justify-content: space-between;gap: 0%;padding: 1%;align-items: center;flex-grow: 0;">
+                  <div style="display: flex;align-items: center;">
+                        <img src="images/paw_image.png" style="width: 15%;">
+                        <a class="navbar-brand" href="index.html" style="font-size: 2.5rem;">PurrFect Paws</a>
+                  </div>
+                  <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars" style="color: white;"></i>
                   </button>
+                  </div>
+                  
                   <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav" style="display: flex;flex-direction: row;justify-content: space-evenly;">
                               <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link" href="#journey-divs-inside">About</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#key-issues-1">Key Issues</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#">Key Issues</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#">Impact</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="#contact-div">Contact</a>
                               </li>
                         </ul>
                   </div>
@@ -54,10 +54,7 @@
 
       </div>
       <div class="header-div">
-
             <img class="header-image" src="images/first_div_background_image.jpeg">
-
-
       </div>
 
 
@@ -68,20 +65,18 @@
             </center>
       </div>
 
-      <div>
+      <div id="journey-divs-inside">
             <div>
-                  <center>
-                        <h5>Your Adoption journey with PurrFect Paws</h5>
-                  </center>
+                  <h5 style="text-align: center;">Your Adoption journey with PurrFect Paws</h5>
+                  
             </div>
             <div class="journey">
-                  <!-- <div>
-                        image adopt me
+                  <div class="adopt-me-image-div">
                         <img class="adopt-me-image" src="images/adoptme_image2.jpg">
-                  </div> -->
-                  <img class="adopt-me-image" src="images/adoptme_image2.jpg">
+                  </div>
+                  
                   <div class="journey-div">
-                        <!-- search, connect, adoptlove, free vet consultation-->
+                        <!-- search a pet -->
                         <div class="journey-sub-div">
                               <img class="logo" src="images/search_paw_logo.png">
                               <div>
@@ -136,7 +131,32 @@
       </div>
 
 
+      <div style="text-align: center;margin-top: 2%;">
+            <h1>Key Issues</h1>
+      </div>
+      <div id="key-issues-1" style="text-align: center;margin-top: 5%;">
+            
+            <div class="animal-homeless">
+                  <div style="display: flex;flex-direction: column;">
+                        <h1 style="text-align: center;">Animal Homelessness</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus, sem non posuere mollis, purus leo dapibus ante, volutpat rhoncus nisi erat at nibh. Duis laoreet sapien vel aliquam rhoncus. Aliquam erat volutpat. Proin eu commodo massa. Nulla vehicula gravida mollis. Morbi aliquam lorem at risus pharetra, nec luctus quam bibendum. Duis ut leo posuere, scelerisque enim id, venenatis velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus semper ut quam nec tempor. Quisque pharetra diam vel pellentesque convallis. Mauris in cursus neque.</p>
+                        <!-- <p>Donec ante elit, condimentum id neque eget, auctor porta ante. Vestibulum sit amet congue ipsum, ut finibus mauris. Etiam faucibus lacus vel interdum feugiat. Nunc sed molestie nibh. Donec finibus leo nulla, et tincidunt lacus venenatis vel. Aliquam consequat ultrices felis, non dignissim lacus bibendum vitae. Nulla fringilla maximus blandit. Aliquam nisl mauris, porta eget efficitur eget, interdum vitae nunc. Morbi sed mauris a ante fermentum euismod.</p> -->
+                  </div>
+                  <img class="animal-homeless-image" src="images/animal_homelessness.jpg">
+                  
+            </div>
+      </div>
 
+      <div id="key-issues-2" style="text-align: center;margin-top: 5%;">
+            <div class="animal-homeless">
+                  <h1 style="text-align: center;margin-bottom: 4%;">Animal Casualties</h1>
+                  <img class="animal-homeless-image" src="images/animal_casualties.jpg">
+                  <div style="display: flex;flex-direction: column;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus, sem non posuere mollis, purus leo dapibus ante, volutpat rhoncus nisi erat at nibh. Duis laoreet sapien vel aliquam rhoncus. Aliquam erat volutpat. Proin eu commodo massa. Nulla vehicula gravida mollis. Morbi aliquam lorem at risus pharetra, nec luctus quam bibendum. Duis ut leo posuere, scelerisque enim id, venenatis velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus semper ut quam nec tempor. Quisque pharetra diam vel pellentesque convallis. Mauris in cursus neque.</p>
+                        <!-- <p>Donec ante elit, condimentum id neque eget, auctor porta ante. Vestibulum sit amet congue ipsum, ut finibus mauris. Etiam faucibus lacus vel interdum feugiat. Nunc sed molestie nibh. Donec finibus leo nulla, et tincidunt lacus venenatis vel. Aliquam consequat ultrices felis, non dignissim lacus bibendum vitae. Nulla fringilla maximus blandit. Aliquam nisl mauris, porta eget efficitur eget, interdum vitae nunc. Morbi sed mauris a ante fermentum euismod.</p> -->
+                  </div>
+            </div>
+      </div>
 
       <!-- FOOTER CONTACT DIV -->
       <div id="contact-div">
