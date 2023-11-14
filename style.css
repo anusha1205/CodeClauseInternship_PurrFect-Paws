@@ -1,0 +1,104 @@
+body{
+      background-color: rgb(200, 232, 251);
+}
+
+
+/* NAVBAR THINGS */
+.navbar-brand,.nav-link{
+      color: rgb(200, 232, 251);
+}
+.navbar-brand:hover, .nav-link:hover{
+      color: grey;
+}
+
+/* HEADER THINGS */
+.header-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+}
+.header-image{
+      align-items: center;
+      width: 100%;
+}
+
+
+/* journey things */
+
+.journey{
+      display: flex;
+      justify-content: space-evenly;
+      gap: 5%;
+}
+.journey-div{
+}
+.journey-sub-div{
+      display: flex;
+      /* justify-content: space-evenly; */
+      gap: 3%;
+      padding: 3%;
+}
+
+
+
+.adopt-me-image{
+      width: 50%;
+}
+.logo{
+      width: 15%;
+      align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT ME */
+
+
+#contact-div{
+      background-color: rgb(197, 197, 197);
+      margin-top: 5%;
+      height: 250px;
+      display:  flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      gap: 5%;
+}
+.visiting{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+}
+.email-icon {
+      height: 40px;
+}
+.email-icon:hover{
+      transition: 0.2s;
+      height: 50px;
+}
+.github-icon, .linkedin-icon{
+      height: 40px;
+      align-self: center;
+}
+.github-icon:hover , .linkedin-icon:hover{
+      transition: 0.25s;
+      height: 51px;
+}
+.contact-me-icons{
+      display: flex;
+      justify-content: space-evenly;
+      gap: 15%;
+}
