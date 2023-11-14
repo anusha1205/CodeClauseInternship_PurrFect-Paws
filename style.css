@@ -152,4 +152,9 @@ body{
       .animal-homeless-image{
             width: 90%;
       }
+      .contact-me-icons{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 5%;
+      }
 }
