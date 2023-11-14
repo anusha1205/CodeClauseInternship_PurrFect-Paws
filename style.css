@@ -1,14 +1,17 @@
 body{
       background-color: rgb(200, 232, 251);
+      font-size: 2rem;
 }
-
-
 /* NAVBAR THINGS */
 .navbar-brand,.nav-link{
       color: rgb(200, 232, 251);
 }
 .navbar-brand:hover, .nav-link:hover{
       color: grey;
+}
+#navbar{
+      display: flex;
+      justify-content: space-around;
 }
 
 /* HEADER THINGS */
@@ -17,7 +20,7 @@ body{
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      
+      margin-top: 2%;
 }
 .header-image{
       align-items: center;
@@ -26,50 +29,58 @@ body{
 
 
 /* journey things */
-
 .journey{
       display: flex;
-      justify-content: space-evenly;
-      gap: 5%;
+      justify-content: space-around;
+      gap: 2%;
 }
-.journey-div{
-}
+
 .journey-sub-div{
       display: flex;
-      /* justify-content: space-evenly; */
-      gap: 3%;
-      padding: 3%;
+      gap: 1%;
+      padding: 2%;
 }
-
-
-
+.adopt-me-image-div{
+      text-align: center;
+      width: 100%;
+}
 .adopt-me-image{
-      width: 50%;
+      width: 100%;
 }
 .logo{
-      width: 15%;
+      width: 12%;
       align-self: center;
 }
 
 
 
+#key-issues-1{
+      text-align: center;
+      margin-top: 5%;
+}
+#key-issues-2{
+      text-align: center;
+      margin-top: 5%;
+}
+.animal-homeless{
+      display: flex;
+      justify-content: space-evenly; 
+      align-items: center;
+      padding: 3%;
+      gap: 2%;
+}
 
-
-
-
-
-
-
-
+.animal-homeless-image{
+      width: 35%;
+}
 
 
 
 /* CONTACT ME */
-
-
 #contact-div{
       background-color: rgb(197, 197, 197);
-      margin-top: 5%;
+      margin-top: 7%;
+      margin-bottom: 10%;
       height: 250px;
       display:  flex;
       justify-content: space-evenly;
@@ -101,4 +112,44 @@ body{
       display: flex;
       justify-content: space-evenly;
       gap: 15%;
+}
+
+@media screen and (max-width: 1200px) {
+      .journey{
+            display: flex;
+            flex-direction: column;
+            
+      }
+      .adopt-me-image-div{
+            text-align: center;
+            
+      }
+      .journey-div{
+            display: flex;
+            flex-wrap: wrap;
+      }
+      #key-issues-1{
+            display: flex;
+            flex-direction: column;
+      }
+      #key-issues-2{
+            display: flex;
+            flex-direction: column;
+      }
+}
+
+@media (max-width: 720px) and (min-width: 0px) {
+      #contact-div{
+            display: flex;
+            flex-direction: column;
+      }
+}
+@media (max-width:1300px) and (min-width: 0px) {
+      .animal-homeless{
+            display: flex;
+            flex-direction: column;
+      }
+      .animal-homeless-image{
+            width: 90%;
+      }
 }
