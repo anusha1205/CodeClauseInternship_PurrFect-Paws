@@ -1,158 +1,184 @@
-body{
+body {
       background-color: rgb(200, 232, 251);
       font-size: 2rem;
 }
+
 /* NAVBAR THINGS */
-.navbar-brand,.nav-link{
+.navbar-brand,
+.nav-link {
       color: rgb(200, 232, 251);
 }
-.navbar-brand:hover, .nav-link:hover{
+
+.navbar-brand:hover,
+.nav-link:hover {
       color: grey;
 }
-#navbar{
+
+#navbar {
       display: flex;
       justify-content: space-around;
 }
 
 /* HEADER THINGS */
-.header-div{
+.header-div {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      margin-left: 10%;
+      margin-right: 10%;
       margin-top: 2%;
 }
-.header-image{
+
+.header-image {
       align-items: center;
       width: 100%;
 }
 
 
 /* journey things */
-.journey{
+.journey {
       display: flex;
       justify-content: space-around;
       gap: 2%;
 }
 
-.journey-sub-div{
+.journey-sub-div {
       display: flex;
       gap: 1%;
       padding: 2%;
 }
-.adopt-me-image-div{
+
+.adopt-me-image-div {
       text-align: center;
       width: 100%;
 }
-.adopt-me-image{
+
+.adopt-me-image {
       width: 100%;
 }
-.logo{
+
+.logo {
       width: 12%;
       align-self: center;
 }
 
-
-
-#key-issues-1{
+#key-issues-1 {
       text-align: center;
       margin-top: 5%;
 }
-#key-issues-2{
+
+#key-issues-2 {
       text-align: center;
       margin-top: 5%;
 }
-.animal-homeless{
+
+.animal-homeless {
       display: flex;
-      justify-content: space-evenly; 
+      justify-content: space-evenly;
       align-items: center;
       padding: 3%;
       gap: 2%;
 }
 
-.animal-homeless-image{
+.animal-homeless-image {
       width: 35%;
 }
 
 
 
 /* CONTACT ME */
-#contact-div{
+#contact-div {
       background-color: rgb(197, 197, 197);
       margin-top: 7%;
       margin-bottom: 10%;
       height: 250px;
-      display:  flex;
+      display: flex;
       justify-content: space-evenly;
       align-items: center;
       flex-direction: row;
       gap: 5%;
 }
-.visiting{
+
+.visiting {
       display: flex;
       justify-content: space-evenly;
       flex-direction: column;
 }
+
 .email-icon {
       height: 40px;
 }
-.email-icon:hover{
+
+.email-icon:hover {
       transition: 0.2s;
       height: 50px;
 }
-.github-icon, .linkedin-icon{
+
+.github-icon,
+.linkedin-icon {
       height: 40px;
       align-self: center;
 }
-.github-icon:hover , .linkedin-icon:hover{
+
+.github-icon:hover,
+.linkedin-icon:hover {
       transition: 0.25s;
       height: 51px;
 }
-.contact-me-icons{
+
+.contact-me-icons {
       display: flex;
       justify-content: space-evenly;
       gap: 15%;
 }
 
 @media screen and (max-width: 1200px) {
-      .journey{
+      .journey {
             display: flex;
             flex-direction: column;
-            
+
       }
-      .adopt-me-image-div{
+
+      .adopt-me-image-div {
             text-align: center;
-            
+
       }
-      .journey-div{
+
+      .journey-div {
             display: flex;
             flex-wrap: wrap;
       }
-      #key-issues-1{
+
+      #key-issues-1 {
             display: flex;
             flex-direction: column;
       }
-      #key-issues-2{
+
+      #key-issues-2 {
             display: flex;
             flex-direction: column;
       }
 }
 
 @media (max-width: 720px) and (min-width: 0px) {
-      #contact-div{
+      #contact-div {
             display: flex;
             flex-direction: column;
       }
 }
+
 @media (max-width:1300px) and (min-width: 0px) {
-      .animal-homeless{
+      .animal-homeless {
             display: flex;
             flex-direction: column;
       }
-      .animal-homeless-image{
+
+      .animal-homeless-image {
             width: 90%;
       }
-      .contact-me-icons{
+
+      .contact-me-icons {
             display: flex;
             justify-content: space-evenly;
             gap: 5%;
