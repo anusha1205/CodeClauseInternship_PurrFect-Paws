@@ -10,4 +10,4 @@ Crucial points : This pet adoption website addresses critical issues surrounding
 
 Meanwhile, **Animal Casualties** shed light on the unfortunate incidents leading to harm, injury, or death among animals due to various reasons like accidents, neglect, or abuse.
 
-To see the working of project you can check my LinkedIn post : (https://www.linkedin.com/posts/anusha-gonal-440ab5283_codeclause-codeclauseinternship-internship-activity-7135506600890355712-VeLO?utm_source=share&utm_medium=member_desktop)
+To see the working of project you can check my LinkedIn post : https://rb.gy/w8jfvt
